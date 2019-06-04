@@ -1,0 +1,20 @@
+/* ERROR PAGE */
+.status-msg-body:after, .status-msg-hidden:after {
+content: &quot;404&quot;;
+font-size: 140px;
+display: block;
+margin: 30px 0;
+color: #e86e6e;
+font-weight: 700;
+text-shadow: 6px 6px #ffffff;
+}
+#blog-pager, #sidebar-wrapper {
+display: none;
+}
+#post-wrapper {
+width: 100%;
+max-width: 100%;
+}
+.status-msg-body {
+padding: 30px 0;
+}
