@@ -1,0 +1,13 @@
+/* CSS Table of Contents */
+#light-toc{background:#f5f5f5;border-radius:3px;padding:10px 20px}
+#toc_list{font-weight:700;cursor:pointer;margin:10px 0}
+#toc_list:focus,#toc li:focus,.back_tocontent:focus{outline:none}
+#toc_list svg{vertical-align:middle}
+#toc li{background:transparent;cursor:pointer;margin:.2em 0 .2em 1em}
+#toc ol li:before{left:-2em}
+#toc li a{color:#222}
+#toc li a:hover{color:#1e90ff}
+#toc{display:grid}
+.back_tocontent{display:inline-block;cursor:pointer;text-align:right;float:right;margin:15px auto;background:#00cec9;color:#fff;font-size:11px;padding:2px 12px;border-radius:99em;transition:all .3s}
+.back_tocontent:hover{background:#2d3436;color:#fff}
+:target::before{content:&#39;&#39;;display:block;height:40px;margin-top:-40px;visibility:hidden}
