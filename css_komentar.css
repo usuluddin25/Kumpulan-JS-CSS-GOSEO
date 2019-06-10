@@ -1,0 +1,146 @@
+<style type='text/css'>
+        .comments h3 {
+          line-height:normal;
+          text-transform:uppercase;
+          color:#333;
+          font-weight:bold;
+          margin:0 0 20px 0;
+          font-size:14px;
+          padding:0 0 0 0;
+        }
+        h4#comment-post-message {
+          display:none;
+          margin:0 0 0 0;
+        }
+        .comments{
+          background: #fff;
+    position: relative;
+border-radius: 10px;
+padding:20px 20px 0 20px;
+        }
+        .comments .comments-content{
+          font-size:13px;
+          margin-bottom:8px
+        }
+        .comments .comments-content .comment-thread ol{
+          text-align:left;
+          margin:13px 0;
+          padding:0
+        }
+        .comments .comment-block{background:#fff;padding:18px 20px;line-height:26px;border-radius:10px;margin-bottom:20px;position:relative;box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 5px 2px}
+        .comments .comment-block:before {
+              content: &#39;&#39;;
+    right: 100%;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: rgba(0,0,0,0.05);
+    border-width: 10px;
+        }
+.comments .comment-block:after {
+content: &#39;&#39;;
+    top: 19px;
+    right: 99.9%;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: #fff;
+    border-width: 9px;
+}
+        .comments .comments-content .comment-replies{
+          margin:8px 0;
+          margin-left:60px
+        }
+        .comments .comments-content .comment-thread:empty{
+          display:none
+        }
+        .comments .comment-replybox-single {
+          background:#f0f0f0;
+          padding:0;
+          margin:8px 0;
+          margin-left:60px
+        }
+        .comments .comment-replybox-thread {
+          background:#f0f0f0;
+          margin:8px 0 0 0;
+          padding:0;
+        }
+        .comments .comments-content .comment{
+          margin-bottom:6px;
+          padding:0
+        }
+        .comments .comments-content .comment:first-child {
+          padding:0;
+          margin:0
+        }
+        .comments .comments-content .comment:last-child {
+          padding:0;
+          margin:0
+        }
+        .comments .comment-thread.inline-thread .comment, .comments .comment-thread.inline-thread .comment:last-child {
+          margin:0px 0px 5px 30%
+        }
+        .comment .comment-thread.inline-thread .comment:nth-child(6) {
+          margin:0px 0px 5px 25%;
+        }
+        .comment .comment-thread.inline-thread .comment:nth-child(5) {
+          margin:0px 0px 5px 20%;
+        }
+        .comment .comment-thread.inline-thread .comment:nth-child(4) {
+          margin:0px 0px 5px 15%;
+        }
+        .comment .comment-thread.inline-thread .comment:nth-child(3) {
+          margin:0px 0px 5px 10%;
+        }
+        .comment .comment-thread.inline-thread .comment:nth-child(2) {
+          margin:0px 0px 5px 5%;
+        }
+        .comment .comment-thread.inline-thread .comment:nth-child(1) {
+          margin:0px 0px 5px 0;
+        }
+        .comments .comments-content .comment-thread{
+          margin:0;
+          padding:0
+        }
+        .comments .comments-content .inline-thread{
+        }
+        .comments .comments-content .icon.blog-author {
+          display:inline;
+        }
+  .comments .avatar-image-container{border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 5px 2px;width:auto}
+        .comments .comments-content .icon.blog-author:before {
+          content:&#39;\f058&#39;;font-family:fontawesome;color: #00c4ff;
+        }
+        .comment-header {
+          font-size:13px;
+        }
+        .comments .comments-content .datetime {
+          margin-left: 6px;
+        }
+        .comments .comments-content .datetime a {
+          color:#bdbdbd;
+    float: right;
+    font-size: 10px;
+        }
+        .comments .comment .comment-actions a {
+          display:inline-block;
+          color:#333;
+          font-weight:bold;
+          font-size:12px;
+          line-height:15px;
+          margin:4px 8px 0 0;
+        }
+        .comments .continue a {
+          color:#333;
+          display:inline-block;
+          font-size:10px;
+        }
+        .comments .comment .comment-actions a:hover, .comments .continue a:hover{
+          text-decoration:underline;
+        }
+</style>
