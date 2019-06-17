@@ -1,3 +1,5 @@
+(function(){$('.user.blog-author').closest('.comment-block').addClass('komenAdmin');})();
+
 (function() {
   var items = <data:post.commentJso/>;
   var msgs = <data:post.commentMsgs/>;
