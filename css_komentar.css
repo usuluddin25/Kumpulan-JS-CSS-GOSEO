@@ -1,3 +1,9 @@
+.komenAdmin{
+  background-color:#d9ffc9;
+  border:1px solid #9bd084;
+  padding:10px;
+  margin-bottom:10px;
+}
 <style type='text/css'>
         .comments h3 {
           line-height:normal;
